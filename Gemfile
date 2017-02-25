@@ -1,3 +1,7 @@
+group :production do
+  gem 'rails_12factor'
+  gem 'pg'
+end
 gem 'mysql2', '0.3.18'
 source 'https://rubygems.org'
 
